@@ -10,4 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://github.com/tiegz/grandiorite/ruby/README.md'
   s.license       = 'MIT'
+
+  s.add_dependency "rainbow", [">= 1.3", "< 3"]
+
 end

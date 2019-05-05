@@ -1,4 +1,4 @@
-$: << "grandiorite"
+$: << "lib/grandiorite"
 require "grandiorite"
 
 Grandiorite.hello_world()
