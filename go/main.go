@@ -1,6 +1,6 @@
 package main
 
-import "grandiorite/tiegz/grandiorite/go"
+import "github.com/tiegz/grandiorite"
 
 func main () {
 	HelloWorld()

@@ -1,1 +1,1 @@
-module github.com/tiegz/grandiorite
+module github.com/tiegz/grandiorite/go
