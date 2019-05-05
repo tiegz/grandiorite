@@ -1,0 +1,4 @@
+### Run
+
+`ruby main.rb`
+
