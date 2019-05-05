@@ -1,7 +1,7 @@
 package main
 
-import "github.com/tiegz/grandiorite/go"
+import "github.com/tiegz/grandiorite/go/grandiorite"
 
-func main () {
-	HelloWorld()
+func main() {
+	grandiorite.HelloWorld()
 }

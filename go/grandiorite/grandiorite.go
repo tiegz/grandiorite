@@ -2,6 +2,6 @@ package grandiorite
 
 import "fmt"
 
-func HelloWorld () {
+func HelloWorld() {
 	fmt.Println("Hello, world.")
 }
