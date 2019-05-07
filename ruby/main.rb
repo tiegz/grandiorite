@@ -1,4 +1,4 @@
-$: << "lib/grandiorite"
-require "grandiorite"
+$: << "."
+require "lib/grandiorite"
 
 Grandiorite.hello_world()

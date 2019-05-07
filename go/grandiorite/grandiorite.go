@@ -1,11 +1,12 @@
 package grandiorite
 
-import "fmt"
-import "github.com/logrusorgru/aurora"
+import (
+	"fmt"
+	"github.com/logrusorgru/aurora"
+)
 
 func HelloWorld() {
-	fmt.Println(
-		aurora.Red("H"),
+	fmt.Printf("%s%s%s%s%s%s%s%s%s%s%s%s%s\n", aurora.Red("H"),
 		aurora.BrightRed("e"),
 		aurora.Yellow("l"),
 		aurora.BrightYellow("l"),
