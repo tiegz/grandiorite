@@ -12,3 +12,8 @@ echo "Ruby: "
 cd ruby && ruby main.rb
 cd - 1>/dev/null
 echo
+
+echo "C: "
+cd c && gcc -o main main.c && ./main && rm main
+cd - 1>/dev/null
+echo
