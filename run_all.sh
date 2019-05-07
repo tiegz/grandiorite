@@ -22,3 +22,8 @@ echo "C++: "
 cd c++ && g++ -o main main.cpp  && ./main
 cd - 1>/dev/null
 echo
+
+echo "Python: "
+cd python && python main.py
+cd - 1>/dev/null
+echo
