@@ -1,0 +1,16 @@
+{
+  "name": "grandiorite",
+  "version": "0.0.1",
+  "description": "A simple hello world javascript package",
+  "main": "index.js",
+  "repository": "https://github.com/tiegz/grandiorite",
+  "homepage": "https://github.com/tiegz/grandiorite/javascript/README.md",
+  "author": "Tieg Zaharia",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "ansicolor": "^1.1.83"
+  }
+}
