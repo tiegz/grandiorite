@@ -27,3 +27,8 @@ echo "Python: "
 cd python && python main.py
 cd - 1>/dev/null
 echo
+
+echo "MySQL: "
+cd mysql && echo -e $(mysql -r -s < grandiorite.sql)
+cd - 1>/dev/null
+echo
