@@ -1,34 +1,30 @@
 echo "Go: "
-cd go && go run main.go
-cd - 1>/dev/null
+cd go/ && go run main.go && cd - 1>/dev/null
 echo
 
 echo "JS: "
-cd javascript && node index.js
-cd - 1>/dev/null
+node javascript/index.js
 echo
 
 echo "Ruby: "
-cd ruby && ruby main.rb
-cd - 1>/dev/null
+ruby -I "ruby" ruby/main.rb
 echo
 
 echo "C: "
-cd c && gcc -o main main.c && ./main && rm main
-cd - 1>/dev/null
+gcc -o main c/main.c && ./main && rm main
 echo
 
 echo "C++: "
-cd c++ && g++ -o main main.cpp  && ./main
-cd - 1>/dev/null
+g++ -o main c++/main.cpp  && ./main
 echo
 
 echo "Python: "
-cd python && python main.py
-cd - 1>/dev/null
+python python/main.py
 echo
 
 echo "MySQL: "
-cd mysql && echo -e $(mysql -r -s < grandiorite.sql)
-cd - 1>/dev/null
+echo -e $(mysql -u root -r -s < mysql/grandiorite.sql)
 echo
+
+echo "Rust: "
+cargo run -q --manifest-path=rust/Cargo.toml
