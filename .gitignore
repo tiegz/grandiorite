@@ -1,4 +1,24 @@
 .DS_Store
+
+# Node
 node_modules
+
+# Rust
 rust/target
-.vs_code/
+
+# Go
+go/main
+
+*/.vs_code/
+
+# Clojure
+clojure/target
+clojure/classes
+clojure/checkouts
+clojure/profiles.clj
+clojure/pom.xml
+clojure/pom.xml.asc
+clojure/*.jar
+clojure/*.class
+clojure/.lein-*
+clojure/.nrepl-port
