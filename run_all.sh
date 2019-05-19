@@ -1,30 +1,40 @@
-echo "Go: "
+echo "         ==================="
+echo "         The Grand IO Write:"
+echo "         ==================="
+echo
+
+printf "%15s" "Go: "
 cd go/ && go run main.go && cd - 1>/dev/null
 echo
 
-echo "JS: "
+printf "%15s" "JS: "
 node javascript/index.js
 echo
 
-echo "Ruby: "
+printf "%15s" "Ruby: "
 ruby -I "ruby" ruby/main.rb
 echo
 
-echo "C: "
+printf "%15s" "C: "
 gcc -o main c/main.c && ./main && rm main
 echo
 
-echo "C++: "
+printf "%15s" "C++: "
 g++ -o main c++/main.cpp  && ./main
 echo
 
-echo "Python: "
+printf "%15s" "Python: "
 python python/main.py
 echo
 
-echo "MySQL: "
+printf "%15s" "MySQL: "
 echo -e $(mysql -u root -r -s < mysql/grandiorite.sql)
 echo
 
-echo "Rust: "
+printf "%15s" "Rust: "
 cargo run -q --manifest-path=rust/Cargo.toml
+echo
+
+printf "%15s" "Clojure: "
+cd clojure/ && ./lein run && cd - 1>/dev/null
+echo
