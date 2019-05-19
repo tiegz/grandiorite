@@ -38,3 +38,7 @@ echo
 printf "%15s" "Clojure: "
 cd clojure/ && ./lein run && cd - 1>/dev/null
 echo
+
+printf "%15s" "OCaml: "
+ocaml ocaml/main.ml
+echo
