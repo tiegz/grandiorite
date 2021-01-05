@@ -22,3 +22,6 @@ clojure/*.jar
 clojure/*.class
 clojure/.lein-*
 clojure/.nrepl-port
+ 
+# Python
+python/dist
