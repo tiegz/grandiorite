@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="grandiorite", 
-    version="0.0.3",
+    version="0.0.4",
     author="Tieg Zaharia",
     author_email="tieg.zaharia@gmail.com",
     description="Hello World in python.",
