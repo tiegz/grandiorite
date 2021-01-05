@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="grandiorite-tiegz", 
+    name="grandiorite", 
     version="0.0.1",
     author="Tieg Zaharia",
     author_email="tieg.zaharia@gmail.com",
