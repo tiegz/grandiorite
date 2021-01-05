@@ -13,6 +13,5 @@ print(
   colored('r', 'blue', attrs=['dark']) +
   colored('l', 'magenta') +
   colored('d', 'magenta', attrs=['dark']) +
-  colored('.', 'white') +
-  colored(' [DEPRECATION TEST]', 'green')
+  colored('.', 'white')
 )
