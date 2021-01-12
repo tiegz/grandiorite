@@ -4,9 +4,27 @@
   <groupId>com.solid1pxred</groupId>
   <artifactId>grandiorite</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>grandiorite</name>
   <url>http://maven.apache.org</url>
+  <licenses>
+    <license>
+        <name>The Apache License, Version 2.0</name>
+        <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+        <id>tiegz</id>
+        <name>Tieg Zaharia</name>
+        <email>tieg.zaharia@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:tiegz/grandiorite.git</connection>
+    <developerConnection>scm:git:ssh://github.com:tiegz/grandiorite.git</developerConnection>
+    <url>https://github.com/tiegz/grandiorite/tree/master/java</url>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
