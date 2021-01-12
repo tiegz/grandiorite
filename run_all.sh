@@ -42,3 +42,11 @@ echo
 printf "%15s" "OCaml: "
 ocaml ocaml/main.ml
 echo
+
+printf "%15s" "Java: "
+java java/src/main/java/com/solid1pxred/App.java
+echo
+
+printf "%15s" "PHP: "
+php php/main.php
+echo
