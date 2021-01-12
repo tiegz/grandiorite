@@ -29,3 +29,6 @@ python/*.egg-info/
 
 # PHP
 php/composer.lock
+
+# Java
+java/target/
