@@ -1,6 +1,6 @@
 {
   "name": "grandiorite",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple hello world javascript package",
   "main": "index.js",
   "repository": "https://github.com/tiegz/grandiorite",

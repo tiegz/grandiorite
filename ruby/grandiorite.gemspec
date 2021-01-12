@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'grandiorite'
-  s.version     = '0.0.1'
+  s.version     = '1.0.0'
   s.date        = '2019-05-05'
   s.summary     = "Hello, World."
   s.description = "A simple hello world gem"
