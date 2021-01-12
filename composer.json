@@ -1,0 +1,21 @@
+{
+    "name": "tzaharia/grandiorite",
+    "description": "A simple hello world package",
+    "type": "library",
+    "require": {
+        "bramus/ansi-php": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tieg Zaharia",
+            "email": "tieg.zaharia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "Grandiorite": "src/"
+        }
+    }
+}
