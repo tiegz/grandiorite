@@ -4,7 +4,7 @@
   "description": "A simple hello world javascript package",
   "main": "index.js",
   "repository": "https://github.com/tiegz/grandiorite",
-  "homepage": "https://github.com/tiegz/grandiorite/javascript/README.md",
+  "homepage": "https://github.com/tiegz/grandiorite/tree/master/javascript",
   "author": "Tieg Zaharia",
   "license": "MIT",
   "devDependencies": {
