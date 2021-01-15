@@ -1,6 +1,6 @@
 [package]
 name = "grandiorite"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Tieg Zaharia <tieg.zaharia@gmail.com>"]
 edition = "2021"
 
