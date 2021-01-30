@@ -1,4 +1,5 @@
 .DS_Store
+.vscode
 
 # Node
 node_modules
@@ -8,6 +9,7 @@ rust/target
 
 # Go
 go/main
+main
 
 */.vs_code/
 
@@ -32,3 +34,4 @@ php/composer.lock
 
 # Java
 java/target/
+

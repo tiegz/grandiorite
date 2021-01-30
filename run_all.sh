@@ -28,7 +28,7 @@ python python/main.py
 echo
 
 printf "%15s" "MySQL: "
-echo -e $(mysql -u root -r -s < mysql/grandiorite.sql)
+echo $(mysql -u root -r -s < mysql/grandiorite.sql)
 echo
 
 printf "%15s" "Rust: "
