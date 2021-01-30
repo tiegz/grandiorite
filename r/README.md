@@ -1,0 +1,4 @@
+### Run
+
+`Rscript main.R`
+
