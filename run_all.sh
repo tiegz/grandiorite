@@ -50,3 +50,7 @@ echo
 printf "%15s" "PHP: "
 php php/main.php
 echo
+
+printf "%15s" "R: "
+Rscript r/main.R
+echo
