@@ -1,6 +1,6 @@
-echo "         ==================="
-echo "         The Grand IO Write:"
-echo "         ==================="
+echo "         ========================"
+echo "         The Grand IO Write 🪨 ✍🏻 "
+echo "         ========================"
 echo
 
 printf "%15s" "Go: "
