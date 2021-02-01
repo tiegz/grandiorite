@@ -4,6 +4,7 @@
 
 Grandiorite has examples of "Hello, World." across many different languages.
 
-### Run
+### Scripts
 
-`sh run_all.sh`
+* `bin/run_all`: run all the examples.
+* `bin/publish_all`: publish all the examples after incrementing the versions.

@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+
+echo "         ========================"
+echo "         The Grand IO Write 🪨 ✍🏻 "
+echo "         ========================"
+echo
+
+OUT="\tGo: published automatically after git tag and git push.\n"
+
+npm publish javascript/
+OUT+="\tJS: published.\n"
+
+rm ruby/grandiorite-*.gem
+gem build ruby/grandiorite.gemspec
+gem push ruby/grandiorite-*.gem
+OUT+="\tRuby: published."
+
+OUT+="\tC: skipped."
+
+OUT+="\tC++: skipped."
+
+# Docs: https://packaging.python.org/tutorials/packaging-projects/#
+cd python/
+python3 -m pip install --user --upgrade twine
+rm -rf python/dist
+python3 setup.py sdist bdist_wheel
+python3 -m twine upload dist
+cd -
+OUT+="\tPython: published.\n"
+
+OUT+="\tMySQL: skipped.\n"
+
+cd rust/
+cargo publish
+OUT+="\tRust: published.\n"
+
+echo $OUT
+
+
+# printf "%15s" "Rust: "
+# cargo run -q --manifest-path=rust/Cargo.toml
+# echo
+
+# printf "%15s" "Clojure: "
+# cd clojure/ && ./lein run && cd - 1>/dev/null
+# echo
+
+# printf "%15s" "OCaml: "
+# ocaml ocaml/main.ml
+# echo
+
+# printf "%15s" "Java: "
+# java java/src/main/java/com/solid1pxred/App.java
+# echo
+
+# printf "%15s" "PHP: "
+# php php/main.php
+# echo
+
+# printf "%15s" "R: "
+# Rscript r/main.R
+# echo
