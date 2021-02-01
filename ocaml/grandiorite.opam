@@ -1,0 +1,19 @@
+opam-version: "2.0"
+name: "grandiorite"
+version: "1.0.3"
+synopsis: "A simple hello world package"
+description: """
+A simple hello world package
+"""
+maintainer: "Tieg Zaharia <tieg.zaharia@gmail.com>"
+authors: "Tieg Zaharia <tieg.zaharia@gmail.com>"
+license: "MIT"
+homepage: "https://github.com/tiegz/grandiorite/blob/master/ocaml/README.md"
+bug-reports: ""
+dev-repo: ""
+depends: [ "ocaml" "ocamlfind" ]
+build: [
+  ["./configure" "--prefix=%{prefix}%"]
+  [make]
+]
+install: [make "install"]
