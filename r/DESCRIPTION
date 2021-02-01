@@ -1,0 +1,13 @@
+Package: Grandiorite
+Type: Package
+Version: 1.0.3
+Title: A simple hello world package
+Description: A simple hello world package
+Authors@R: c(person("Tieg", "Zaharia", role = c("aut", "cre"),
+                    email = "tieg.zaharia@gmail.com"))
+License: MIT
+URL: https://github.com/tiegz/grandiorite/blob/master/r/README.md
+BugReports: https://github.com/tiegz/grandiorite/issues
+Imports:
+    crayon (>= 1.4.0)
+
