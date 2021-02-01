@@ -32,31 +32,21 @@ OUT+="\tMySQL: skipped.\n"
 
 cd rust/
 cargo publish
+cd -
 OUT+="\tRust: published.\n"
 
+echo "Reminder: use a deploy token for Clojars password."
+cd clojure
+./lein deploy clojars
+cd -
+OUT+="\tClojure: published.\n"
+
+OUT+="\tOCaml: TODO.\n"
+
+OUT+="\tJava: TODO.\n"
+
+OUT+="\tPHP: TODO.\n"
+
+OUT+="\tR: TODO.\n"
+
 echo $OUT
-
-
-# printf "%15s" "Rust: "
-# cargo run -q --manifest-path=rust/Cargo.toml
-# echo
-
-# printf "%15s" "Clojure: "
-# cd clojure/ && ./lein run && cd - 1>/dev/null
-# echo
-
-# printf "%15s" "OCaml: "
-# ocaml ocaml/main.ml
-# echo
-
-# printf "%15s" "Java: "
-# java java/src/main/java/com/solid1pxred/App.java
-# echo
-
-# printf "%15s" "PHP: "
-# php php/main.php
-# echo
-
-# printf "%15s" "R: "
-# Rscript r/main.R
-# echo
