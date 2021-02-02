@@ -1,10 +1,5 @@
-# First time installation of deps:
-# options(repos = c(CRAN = "https://cran.rstudio.com"))
-# install.packages('crayon', dependencies = TRUE, repos = "http://cran.us.r-project.org")
-
-# To update deps:
-# options(repos = c(CRAN = "https://cran.rstudio.com"))
-# update.packages(ask = FALSE)
+# To install dependencies, run:
+# renv::restore()
 
 library(crayon)
 
@@ -32,3 +27,4 @@ cat(
   white(".") %+%
   "\n"
 )
+

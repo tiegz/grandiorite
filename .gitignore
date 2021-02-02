@@ -35,3 +35,5 @@ php/composer.lock
 # Java
 java/target/
 
+# R (renv)
+r/renv/library/
