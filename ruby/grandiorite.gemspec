@@ -12,6 +12,6 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
   # s.require_paths = ["lib/gran"]
 
-  s.add_dependency "rainbow", [">= 1.3", "< 3"]
+  s.add_dependency "rainbow", [">= 3.0.0"]
 
 end
