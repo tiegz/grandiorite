@@ -49,4 +49,6 @@ OUT+="\tPHP: TODO.\n"
 
 OUT+="\tR: TODO.\n"
 
+OUT="\tSwift: published automatically after git tag and git push.\n"
+
 echo $OUT
