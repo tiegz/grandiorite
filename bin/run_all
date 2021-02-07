@@ -56,3 +56,7 @@ echo
 printf "%15s" "R: "
 Rscript r/main.R
 echo
+
+printf "%15s" "Swift: "
+swift run --package-path swift/
+echo
