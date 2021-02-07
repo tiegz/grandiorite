@@ -13,5 +13,5 @@ print(
   "r".lightBlue() +
   "l".magenta() +
   "d".lightMagenta() +
-  "!".white()
+  ".".white()
 )
