@@ -26,8 +26,8 @@ clojure/.lein-*
 clojure/.nrepl-port
  
 # Python
-python/dist
-python/*.egg-info/
+python/*/dist
+python/*/*.egg-info/
 
 # PHP
 php/composer.lock
