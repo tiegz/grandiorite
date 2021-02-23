@@ -14,26 +14,5 @@ anaconda login
 conda install conda-build
 conda config --set anaconda_upload no
 conda build .
+anaconda upload PATH_TO_FILE_FROM_LAST_COMMAND
 ```
-
-
-``` python
-python3 setup.py sdist bdist_wheel
-python3 -m twine upload -dist/*
-[username: __token__, password: <API TOKEN FROM PYPI.ORG ACCOUNT SETTINGS>]
-```
-
-
-
-
-### Setup
-
-`conda create grandiorite`
-
-`conda activate grandiorite`
-
-`pip install -r requirements.txt`
-
-### Run
-
-`python main.py`
