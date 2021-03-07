@@ -37,3 +37,8 @@ java/target/
 
 # R (renv)
 r/renv/library/
+
+# Haskell
+haskell/*.hi
+haskell/*.o
+haskell/dist-newstyle

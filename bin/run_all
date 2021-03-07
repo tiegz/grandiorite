@@ -64,3 +64,7 @@ echo
 printf "%15s" "Objective-C: "
 clang -fobjc-arc objective-c/main.m -o main && ./main && rm main
 echo
+
+printf "%15s" "Haskell: "
+cd haskell && cabal run --verbose=0 && cd - 1>/dev/null
+echo

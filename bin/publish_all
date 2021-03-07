@@ -49,6 +49,11 @@ OUT+="\tPHP: TODO.\n"
 
 OUT+="\tR: TODO.\n"
 
-OUT="\tSwift: published automatically after git tag and git push.\n"
+OUT+="\tSwift: published automatically after git tag and git push.\n"
+
+OUT+="\tHaskell: TODO.\n"
+cd haskell
+cabal upload $(cabal sdist | tail -n 1)
+cd -
 
 echo $OUT
