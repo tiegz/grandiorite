@@ -5,8 +5,8 @@ version = "1.0.3"
 authors = ["Tieg Zaharia <tieg.zaharia@gmail.com>"]
 edition = "2018"
 license = "MIT"
-documentation = "https://github.com/tiegz/grandiorite/blob/master/rust/README.md"
-homepage = "https://github.com/tiegz/grandiorite/blob/master/rust/README.md"
+documentation = "https://github.com/tiegz/grandiorite/blob/main/rust/README.md"
+homepage = "https://github.com/tiegz/grandiorite/blob/main/rust/README.md"
 
 [dependencies]
 ansi_term = "0.11"

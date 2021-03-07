@@ -8,7 +8,7 @@ A simple hello world package
 maintainer: "Tieg Zaharia <tieg.zaharia@gmail.com>"
 authors: "Tieg Zaharia <tieg.zaharia@gmail.com>"
 license: "MIT"
-homepage: "https://github.com/tiegz/grandiorite/blob/master/ocaml/README.md"
+homepage: "https://github.com/tiegz/grandiorite/blob/main/ocaml/README.md"
 bug-reports: ""
 dev-repo: ""
 depends: [ "ocaml" "ocamlfind" ]
