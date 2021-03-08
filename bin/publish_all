@@ -56,4 +56,9 @@ cd haskell
 cabal upload $(cabal sdist | tail -n 1)
 cd -
 
+cd erlang
+mix hex.publish
+cd -
+OUT+="\tErlang: published.\n"
+
 echo $OUT

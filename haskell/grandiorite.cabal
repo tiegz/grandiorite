@@ -6,7 +6,7 @@ cabal-version:       2.4
 name:                grandiorite
 version:             1.0.3.0
 synopsis:            "Hello, World."
-description:         "A simple hello world gem"
+description:         "A simple hello world package."
 homepage:            https://github.com/tiegz/grandiorite/haskell
 bug-reports:         https://github.com/tiegz/grandiorite/issues
 license:             MIT

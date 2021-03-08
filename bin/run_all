@@ -68,3 +68,7 @@ echo
 printf "%15s" "Haskell: "
 cd haskell && cabal run --verbose=0 && cd - 1>/dev/null
 echo
+
+printf "%15s" "Erlang: "
+cd erlang && mix run -e 'Grandiorite.helloWorld()' && cd - 1>/dev/null
+echo
