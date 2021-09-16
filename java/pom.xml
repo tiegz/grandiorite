@@ -14,4 +14,28 @@
     <version>1.0.3</version>
     <relativePath>grandiorite-base/pom.xml</relativePath>
   </parent>
+  <dependencies>
+    <dependency>
+      <groupId>com.diogonunes</groupId>
+      <artifactId>JColor</artifactId>
+      <version>5.0.1</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.0</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <addClasspath>true</addClasspath>
+                <mainClass>com.solid1pxred.App</mainClass>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
+    </plugins>
+  </build>
 </project>

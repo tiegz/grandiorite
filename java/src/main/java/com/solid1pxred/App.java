@@ -23,21 +23,7 @@ public class App
 
     public static void main( String[] args )
     {
-        System.out.printf("%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s",
-        RED, "H", RESET,
-        BRIGHT_RED, "e", RESET,
-        YELLOW, "l", RESET,
-        BRIGHT_YELLOW, "l", RESET,
-        GREEN, "o", RESET,
-        BRIGHT_GREEN, ",", RESET,
-        CYAN, " ", RESET,
-        BRIGHT_CYAN, "W", RESET,
-        BLUE, "o", RESET,
-        BRIGHT_BLUE, "r", RESET,
-        MAGENTA, "l", RESET,
-        BRIGHT_MAGENTA, "d", RESET,
-        WHITE, ".", RESET,
-        RESET, "\n");
+        System.out.println(Ansi.colorize("This text will be yellow on magenta", YELLOW_TEXT(), MAGENTA_BACK()));
 
     }
 }
