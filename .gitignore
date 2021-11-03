@@ -32,8 +32,12 @@ python/*.egg-info/
 # PHP
 php/composer.lock
 
-# Java
+# Java > Maven
 java/target/
+
+# Java > Gradle
+java/build/
+.gradle
 
 # R (renv)
 r/renv/library/
