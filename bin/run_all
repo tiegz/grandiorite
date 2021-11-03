@@ -45,8 +45,12 @@ printf "%15s" "OCaml: "
 ocaml ocaml/main.ml
 echo
 
-printf "%15s" "Java: "
-java java/src/main/java/com/solid1pxred/App.java
+printf "%15s" "Java (Maven): "
+java java/maven/src/main/java/com/solid1pxred/App.java
+echo
+
+printf "%15s" "Java (Gradle): "
+cd java/gradle && ./gradlew clean build -q && java -cp build/libs/gradle.jar App  && cd - 1>/dev/null
 echo
 
 printf "%15s" "PHP: "
