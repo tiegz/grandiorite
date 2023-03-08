@@ -1,7 +1,7 @@
 [package]
 name = "grandiorite"
 description = "A simple hello world crate"
-version = "1.0.3"
+version = "1.0.4"
 authors = ["Tieg Zaharia <tieg.zaharia@gmail.com>"]
 edition = "2018"
 license = "MIT"
