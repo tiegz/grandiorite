@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Grandiorite</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>tiegz</Authors>
+    <Company>tiegz</Company>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AnsiColors" Version="1.0.0" />
+    <PackageReference Include="Pastel" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>

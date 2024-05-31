@@ -1,0 +1,4 @@
+### Run
+
+`dotnet run`
+
