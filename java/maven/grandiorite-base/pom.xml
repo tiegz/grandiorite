@@ -23,7 +23,7 @@
   <scm>
     <connection>scm:git:git@github.com:tiegz/grandiorite.git</connection>
     <developerConnection>scm:git:ssh://github.com:tiegz/grandiorite.git</developerConnection>
-    <url>https://github.com/tiegz/grandiorite/tree/main/java</url>
+    <url>https://github.com/tiegz/grandiorite/tree/main/java/grandiorite-base</url>
   </scm>
   <dependencies>
     <dependency>

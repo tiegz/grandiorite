@@ -15,6 +15,11 @@
     <version>1.0.3</version>
     <relativePath>grandiorite-base/pom.xml</relativePath>
   </parent>
+  <scm>
+    <connection>scm:git:git@github.com:tiegz/grandiorite.git</connection>
+    <developerConnection>scm:git:ssh://github.com:tiegz/grandiorite.git</developerConnection>
+    <url>https://github.com/tiegz/grandiorite/tree/main/java</url>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>org.scala-lang</groupId>
