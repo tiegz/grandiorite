@@ -1,0 +1,21 @@
+{
+  "name": "grandiorite",
+  "version": "1.0.3",
+  "description": "A simple hello world javascript package.",
+  "main": "index.js",
+  "repository": "https://github.com/tiegz/grandiorite",
+  "homepage": "https://github.com/tiegz/grandiorite/tree/main/javascript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tieg Zaharia",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.3",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "ansicolor": "^1.1.83"
+  }
+}
