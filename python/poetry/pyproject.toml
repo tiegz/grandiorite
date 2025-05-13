@@ -1,0 +1,20 @@
+[project]
+name = "grandiorite"
+version = "1.0.3"
+description = ""
+authors = [
+    {name = "Tieg Zaharia",email = "tieg.zaharia@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "termcolor (>=1.1.0)"
+]
+
+[tool.poetry]
+packages = [{include = "demo", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
